@@ -1,65 +1,38 @@
 # Blender MTL File: 'Lambo.blend'
-# Material Count: 479
-
-newmtl Box01
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
-Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+# Material Count: 445
 
 newmtl Box010
-Ns 97.519995
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.105900 0.105900 0.105900
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl Box02
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
-Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Box03
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
-Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box04
-Ns 97.519995
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.105900 0.105900 0.105900
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box05
-Ns 97.519995
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.105900 0.105900 0.105900
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box06
 Ns 13.700006
@@ -72,14 +45,15 @@ d 1.000000
 illum 2
 
 newmtl Box060
-Ns 97.519995
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.105900 0.105900 0.105900
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box06_1
 Ns 13.700006
@@ -102,14 +76,15 @@ d 1.000000
 illum 2
 
 newmtl Box070
-Ns 97.519995
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.105900 0.105900 0.105900
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box07_1
 Ns 13.700006
@@ -312,17 +287,18 @@ d 1.000000
 illum 2
 
 newmtl Box16
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box17
-Ns 51.799998
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
@@ -330,826 +306,798 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-
-newmtl Box17_1
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
-Kd 0.580400 0.580400 0.580400
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\PlacaCDMX.tga
 
 newmtl Box23
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box24
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Box25
-Ns 127.999985
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.950000 0.950000 0.950000
 Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box26
-Ns 51.799998
+Ns 3.385886
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box27
-Ns 47.989989
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.215700 0.215700 0.215700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box27_1
-Ns 51.799998
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box27_2
-Ns 13.700006
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.094100 0.094100 0.094100
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box27_Box0
-Ns 51.799998
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box27_Box1
-Ns 47.989989
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.215700 0.215700 0.215700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box27_Box2
-Ns 13.700006
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.094100 0.094100 0.094100
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box28
-Ns 51.799998
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box28_1
-Ns 47.989989
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.215700 0.215700 0.215700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box28_Box0
-Ns 51.799998
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box28_Box1
-Ns 47.989989
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.215700 0.215700 0.215700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl Box320
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
-Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Box33
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.568600 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Box33_Box1
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.568600 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Box33_Box2
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.568600 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Box33_Box3
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.568600 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle01
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl Circle02
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle03
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle04
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle05
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle06
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle07
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Circle08
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Cylinde100
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde101
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde102
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde103
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde104
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde105
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde106
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde107
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.780400 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Cylinde108
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde109
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde110
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde111
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde112
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde113
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde114
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde115
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde116
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde117
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde118
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde119
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde120
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde121
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde122
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde123
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde124
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde125
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde126
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde127
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde128
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde129
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde130
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde131
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde132
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde133
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde134
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde135
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde136
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde137
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde138
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde139
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde140
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde141
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde142
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinde143
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.780400 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Cylinde144
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde145
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde146
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde147
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde148
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde149
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde150
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde151
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde152
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinde153
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
 
 newmtl Cylinder00
 Ns 111.489997
@@ -1172,1144 +1120,1170 @@ d 1.000000
 illum 2
 
 newmtl Cylinder10
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder11
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder12
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder13
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder14
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder15
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder16
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder17
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder18
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder19
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder20
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder21
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder22
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder23
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder24
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder25
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder26
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder27
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder28
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder29
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder30
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder31
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder32
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder33
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder34
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder35
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.780400 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Cylinder36
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder37
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder38
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder39
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder40
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder41
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder42
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder43
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder44
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder45
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder46
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder47
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder48
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder49
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder50
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder51
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder52
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder53
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder54
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder55
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder56
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder57
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder58
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder59
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder60
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder61
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder62
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder63
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder64
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder65
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder66
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder67
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder68
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder69
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder70
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder71
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 380.250007
+Ka 0.500000 0.500000 0.500000
 Kd 0.780400 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaRojo.tga
 
 newmtl Cylinder72
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder73
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder74
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder75
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder76
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder77
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder78
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder79
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder80
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder81
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Cylinder82
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder83
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder84
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder85
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder86
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder87
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder88
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder89
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder90
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder91
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder92
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder93
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder94
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder95
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder96
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder97
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder98
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Cylinder99
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.105900 0.105900 0.105900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaBlackMetal.tga
 
 newmtl Line22
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_1
-Ns 13.700006
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.584300 0.584300 0.584300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_Li0
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_Li1
-Ns 13.700006
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.584300 0.584300 0.584300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_Li2
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_Li3
-Ns 13.700006
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.584300 0.584300 0.584300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_Li4
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line22_Li5
-Ns 13.700006
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.584300 0.584300 0.584300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line23
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line23_Li1
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line23_Li2
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Line23_Lin
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl Object020
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
-Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Object03
-Ns 55.610005
-Ka 1.000000 1.000000 1.000000
-Kd 0.447100 0.447100 0.447100
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Object04
-Ns 35.289999
-Ka 1.000000 1.000000 1.000000
+Ns 0.000000
+Ka 0.550000 0.550000 0.550000
 Kd 0.066700 0.066700 0.066700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaLeather.tga
 
 newmtl Object04_1
-Ns 35.289999
-Ka 1.000000 1.000000 1.000000
+Ns 0.000000
+Ka 0.550000 0.550000 0.550000
 Kd 0.066700 0.066700 0.066700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaLeather.tga
 
 newmtl Object04_2
-Ns 35.289999
-Ka 1.000000 1.000000 1.000000
+Ns 0.000000
+Ka 0.550000 0.550000 0.550000
 Kd 0.066700 0.066700 0.066700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaLeather.tga
 
 newmtl Object04_O
-Ns 35.289999
-Ka 1.000000 1.000000 1.000000
+Ns 0.000000
+Ka 0.550000 0.550000 0.550000
 Kd 0.066700 0.066700 0.066700
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl Object06
-Ns 127.999985
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Object07
-Ns 55.610005
-Ka 1.000000 1.000000 1.000000
-Kd 0.447100 0.447100 0.447100
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
-
-newmtl Object08
-Ns 55.610005
-Ka 1.000000 1.000000 1.000000
-Kd 0.447100 0.447100 0.447100
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
-
-newmtl Object09
-Ns 55.610005
-Ka 1.000000 1.000000 1.000000
-Kd 0.447100 0.447100 0.447100
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
-
-newmtl Object10
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
-Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Object11
-Ns 127.999985
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaLeather.tga
 
 newmtl Text01
 Ns 47.989989
@@ -2342,1707 +2316,1877 @@ d 1.000000
 illum 2
 
 newmtl Tube03
-Ns 51.799998
+Ns 47.610008
 Ka 1.000000 1.000000 1.000000
 Kd 0.403900 0.403900 0.403900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Tube03_Tub
-Ns 51.799998
+Ns 47.610008
 Ka 1.000000 1.000000 1.000000
 Kd 0.403900 0.403900 0.403900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Tube1016
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Tube1016_1
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Tube1016_2
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.502000 0.502000 0.502000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Tube1016_T
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl Tube1030
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103010
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103011
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103012
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103013
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103014
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103015
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103016
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103017
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103018
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103019
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103020
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103021
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103022
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103023
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103024
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103025
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103026
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103027
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103028
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103029
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103030
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103031
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103032
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103033
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103034
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103035
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103036
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103037
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103038
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103039
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103040
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103041
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103042
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103043
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103044
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103045
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103046
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103047
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103048
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103049
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103050
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103051
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103052
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103053
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103054
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103055
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103056
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103057
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103058
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103059
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103060
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103061
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103062
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103063
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103064
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103065
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103066
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103067
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103068
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103069
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103070
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103071
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103072
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103073
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103074
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103075
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103076
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103077
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103078
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103079
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103080
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103081
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103082
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103083
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103084
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103085
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103086
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103087
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103088
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103089
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103090
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103091
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103092
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103093
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103094
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103095
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103096
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103097
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103098
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103099
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_1
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_2
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_3
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_4
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_5
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_6
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_7
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_8
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_9
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube1030_T
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103100
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103101
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103102
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103103
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103104
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103105
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103106
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103107
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103108
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103109
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103110
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103111
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103112
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103113
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103114
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103115
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103116
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103117
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103118
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103119
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103120
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103121
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103122
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103123
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103124
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103125
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103126
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103127
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103128
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103129
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103130
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103131
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103132
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103133
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103134
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103135
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103136
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103137
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103138
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103139
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103140
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103141
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103142
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103143
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103144
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103145
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103146
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103147
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103148
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103149
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103150
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103151
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103152
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103153
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103154
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103155
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103156
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103157
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103158
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103159
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103160
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103161
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl Tube103162
-Ns 96.250006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.337300 0.337300 0.337300
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl body
-Ns 265.224516
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.000000 0.000000
 Ks 0.000000 0.000000 0.000000
@@ -4053,47 +4197,51 @@ illum 1
 map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl body_1
-Ns 77.200007
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.000000 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl body_2
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl body_3
-Ns 79.740015
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.027500 0.149000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaVidrio.tga
 
 newmtl body_4
-Ns 13.700006
+Ns 4.796102
 Ka 1.000000 1.000000 1.000000
 Kd 0.094100 0.094100 0.094100
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaPlastico.tga
 
 newmtl body_6
-Ns 13.700006
+Ns 24.870837
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 0.400000 0.000000
 Ks 0.894100 0.894100 0.894100
@@ -4101,26 +4249,29 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaMiniDireccional.tga
 
 newmtl bottom_rea
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.000000 0.000000 0.000000
 Ks 0.894100 0.894100 0.894100
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl bw
-Ns 79.740015
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.027500 0.149000
-Ks 0.894100 0.894100 0.894100
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
-illum 9
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl db
 Ns 49.260003
@@ -4143,44 +4294,48 @@ d 1.000000
 illum 2
 
 newmtl dbb
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl dbb2
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl dbf
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl dbf2
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.371000 0.371000 0.371000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl door02
 Ns 13.700006
@@ -4193,34 +4348,37 @@ d 1.000000
 illum 2
 
 newmtl door02_1
-Ns 79.740015
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.047100 0.251000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaVidrio.tga
 
 newmtl door02_2
-Ns 13.700006
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl door02_3
-Ns 77.200007
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaPlastico.tga
+
+newmtl door02_3
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl door02_4
 Ns 13.700006
@@ -4243,17 +4401,18 @@ d 1.000000
 illum 2
 
 newmtl door02_6
-Ns 127.999985
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl door02_7
-Ns 51.799998
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
@@ -4261,6 +4420,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaVidrio.tga
 
 newmtl door03
 Ns 13.700006
@@ -4273,34 +4433,37 @@ d 1.000000
 illum 2
 
 newmtl door03_1
-Ns 79.740015
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.047100 0.251000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaVidrio.tga
 
 newmtl door03_2
-Ns 13.700006
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl door03_3
-Ns 77.200007
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaPlastico.tga
+
+newmtl door03_3
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl door03_4
 Ns 13.700006
@@ -4323,17 +4486,18 @@ d 1.000000
 illum 2
 
 newmtl door03_6
-Ns 127.999985
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.074500 0.074500 0.074500
-Ks 0.894100 0.894100 0.894100
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl door03_7
-Ns 51.799998
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
@@ -4341,26 +4505,29 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaVidrio.tga
 
 newmtl eh
-Ns 77.200007
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.000000 0.000000
-Ks 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl eh_1
-Ns 13.700006
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl engine_com
 Ns 13.700006
@@ -4373,34 +4540,37 @@ d 1.000000
 illum 2
 
 newmtl fw
-Ns 79.740015
+Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.027500 0.149000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
-
-newmtl hlc
-Ns 79.740015
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.047100 0.251000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
-
-newmtl hood
-Ns 77.200007
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
+d 0.400000
+illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaVidrio.tga
+
+newmtl hlc
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.047100 0.251000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.400000
+illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFaros.tga
+
+newmtl hood
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl hood_1
 Ns 77.200007
@@ -4411,16 +4581,18 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\LogoLambo.tga
 
 newmtl intake
-Ns 77.200007
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.000000 0.000000
-Ks 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl intake01
 Ns 13.700006
@@ -4433,14 +4605,15 @@ d 1.000000
 illum 2
 
 newmtl intake02
-Ns 77.200007
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.000000 0.000000
-Ks 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl intake02_1
 Ns 96.250006
@@ -4462,105 +4635,60 @@ Ni 1.450000
 d 1.000000
 illum 2
 
-newmtl lo
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.902000 0.902000 0.902000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl lo01
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.902000 0.902000 0.902000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl lo02
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.902000 0.902000 0.902000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl lo03
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.902000 0.902000 0.902000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
 newmtl manifold01
-Ns 64.500013
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698000 0.698000 0.698000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl manifold02
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl manifold03
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl manifold04
-Ns 51.799998
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.494100 0.494100 0.494100
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl rear_view
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
-Kd 0.094100 0.094100 0.094100
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl roof
-Ns 77.200007
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.000000 0.000000 0.000000
-Ks 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAzulMetalico.tga
 
 newmtl roof_1
 Ns 13.700006
@@ -4593,194 +4721,125 @@ d 1.000000
 illum 2
 
 newmtl tail_lit00
-Ns 32.749995
+Ns 56.250000
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaCalaverasLambo.tga
 
 newmtl tail_lit01
-Ns 32.749995
+Ns 56.250000
 Ka 1.000000 1.000000 1.000000
 Kd 0.980400 0.945100 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaCalaverasLambo.tga
 
 newmtl tail_lit02
-Ns 32.749995
+Ns 56.250000
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
-
-newmtl tail_lit03
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaCalaverasLambo.tga
 
 newmtl tail_lit04
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl tail_lit05
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl tail_lit06
-Ns 32.749995
+Ns 56.250000
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaCalaverasLambo.tga
 
 newmtl tail_lit07
-Ns 32.749995
+Ns 56.250000
 Ka 1.000000 1.000000 1.000000
 Kd 0.980400 0.945100 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaCalaverasLambo.tga
 
 newmtl tail_lit08
-Ns 32.749995
+Ns 56.250000
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.400000
 illum 9
-
-newmtl tail_lit09
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.000000 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaCalaverasLambo.tga
 
 newmtl trunk
-Ns 13.700006
+Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.094100 0.094100 0.094100
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl ts
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
-
-newmtl ts01
-Ns 51.799998
-Ka 1.000000 1.000000 1.000000
-Kd 0.403900 0.403900 0.403900
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl ts01_1
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
-Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl ts_1
-Ns 49.260003
-Ka 1.000000 1.000000 1.000000
-Kd 0.109800 0.109800 0.109800
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl ts_l
-Ns 32.749995
-Ka 1.000000 1.000000 1.000000
-Kd 0.980400 0.945100 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
-
-newmtl ts_l01
-Ns 32.749995
-Ka 1.000000 1.000000 1.000000
-Kd 0.980400 0.945100 0.000000
-Ks 0.894100 0.894100 0.894100
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.400000
-illum 9
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaAluminio.tga
 
 newmtl upper_rear
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.000000 0.000000 0.000000
 Ks 0.894100 0.894100 0.894100
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl ww01
-Ns 13.700006
-Ka 1.000000 1.000000 1.000000
+Ns 4.796102
+Ka 0.385000 0.385000 0.385000
 Kd 0.094100 0.094100 0.094100
-Ks 0.894100 0.894100 0.894100
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures\\TexturaFibraC.tga
 
 newmtl wwc
 Ns 127.999985
