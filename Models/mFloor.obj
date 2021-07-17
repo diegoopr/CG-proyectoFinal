@@ -1,6 +1,6 @@
 # Blender v2.93.0 OBJ File: 'landscape.blend'
 # www.blender.org
-mtllib mfloor.mtl
+mtllib mFloor.mtl
 o Plane_Plane.007
 v -4.477408 0.053216 3.889453
 v 5.650756 0.053216 3.889453
