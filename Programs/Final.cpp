@@ -53,6 +53,8 @@ Model Camaro;
 Model Avion;
 Model Avion2;
 Model Pajaro;
+Model Poste;
+Model Linterna;
 
 Model Piso;
 
@@ -124,6 +126,8 @@ GLfloat posXCamaro = 0.0f;
 GLfloat posYCamaro = 0.0f;
 GLfloat terminoCamaro=0.0;
 GLfloat skyboxTime = 0.0f;
+//********************luces*************************
+int contadorLuces = 1;
 
 class wcPt3D{
 public:
@@ -360,6 +364,10 @@ int main()
     Pajaro.LoadModel("Models/pajaro.obj");
     Hangar = Model();
     Hangar.LoadModel("Models/Hangar.fbx");
+    Poste = Model();
+    Poste.LoadModel("Models/poste_luz.obj");
+    Linterna = Model();
+    Linterna.LoadModel("Models/linterna.obj");
     
     Piso = Model();
     Piso.LoadModel("Models/floor.obj");
@@ -414,11 +422,200 @@ int main()
 	//contador de luces puntuales
 	unsigned int pointLightCount = 0;// arrelo de tipo puntual
 	//DeclaraciÛn de primer luz puntual
-	pointLights[0] = PointLight(1.0f, 0.0f, 0.0f, //rojo
-		0.0f, 1.0f,
-		2.0f, 1.5f, 1.5f,
-		0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
-	pointLightCount++;
+    
+    pointLights[0] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -150.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[1] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -150.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[2] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -120.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[3] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -120.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[4] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -113.0f, 3.0f, 35.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[5] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -90.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[6] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -60.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[7] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -60.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[8] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -60.0f, 3.0f, 35.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[9] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -60.0f, 3.0f, 6.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[10] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -30.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[11] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -30.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[12] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -30.0f, 3.0f, 19.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[13] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        -30.0f, 3.0f, -10.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[14] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        0.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[15] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        0.0f, 3.0f, 2.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[16] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        0.0f, 1.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[17] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        0.0f, 3.0f, -26.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[18] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        30.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[19] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        30.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[20] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        30.0f, 3.0f, -13.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[21] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        30.0f, 3.0f, -41.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[22] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        60.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[23] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        60.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[24] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        60.0f, 3.0f, -30.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[25] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        60.0f, 3.0f, -58.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[26] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        90.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[27] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        90.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[28] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        120.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[29] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        120.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[30] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        150.0f, 3.0f, 70.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+    
+    pointLights[31] = PointLight(1.0f, 1.0f, 1.0f, //rojo
+        0.0f, 1.0f,
+        150.0f, 3.0f, 39.0f,
+        0.3f, 0.2f, 0.1f);//sirven para la atenuacion, alcance de la iluminacion
+    pointLightCount++;
+
+    
 
 	unsigned int spotLightCount = 0;//arreglo spotlight
 	//linterna
@@ -430,12 +627,30 @@ int main()
 		5.0f);//apertura del cono
 	spotLightCount++;
     
-    //helicoptero
+    //poste 1
 	spotLights[1] = SpotLight(1.0f, 1.0f, 1.0f,
         1.0f, 2.0f,
-        0.0f, 0.0f, 0.0f,
-        -0.5f, -1.0f, 0.0f,
-        1.0f, 0.0f, 0.0f,
+        -150.0f, 24.0f, 105.0f,
+        0.0f, -1.0f, 0.0f,//vector de direccion
+        1.0f, 0.0f, 0.0f,//ecuacion
+        15.0f);
+    spotLightCount++;
+    
+    //poste 2
+    spotLights[2] = SpotLight(1.0f, 1.0f, 1.0f,
+        1.0f, 2.0f,
+        -200.0f, 24.0f, 105.0f,
+        0.0f, -1.0f, 0.0f,//vector de direccion
+        1.0f, 0.0f, 0.0f,//ecuacion
+        15.0f);
+    spotLightCount++;
+    
+    //luz interna
+    spotLights[3] = SpotLight(1.0f, 1.0f, 1.0f,
+        1.0f, 2.0f,
+        -180.0f, 35.0f, 170.0f,
+        0.0f, -1.0f, 0.0f,//vector de direccion
+        1.0f, 0.0f, 0.0f,//ecuacion
         15.0f);
     spotLightCount++;
 
@@ -446,6 +661,7 @@ int main()
 	
 	////Loop mientras no se cierra la ventan
     GLfloat t0 = glfwGetTime();
+    GLfloat t0Luces = glfwGetTime();
     while (!mainWindow.getShouldClose())
 	{
 		GLfloat now = glfwGetTime();
@@ -656,7 +872,6 @@ int main()
         }
         
         model = glm::translate(model, glm::vec3(desplazamientoAvion));
-        spotLights[1].SetPos(desplazamientoAvion);
         
         //Rotaciones del avion para que de vuelta realista
         
@@ -770,13 +985,318 @@ int main()
             glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
             Pajaro.RenderModel();
         }
-            
+           
+//******************************************Hangar****************************************
         model = glm::mat4(1.0);
         model = glm::scale(model, glm::vec3(20.0f, 20.0f, 3.0f));
         model = glm::translate(model, glm::vec3(-9.0f, 0.0f, 70.0f));
         model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
         glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
         Hangar.RenderModel();
+        
+//*****************************************Luces de pista**********************************
+        //Fondo atras
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        //2
+        Linterna.RenderModel();
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-150.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //3
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-120.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //4
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-90.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //5
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-60.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //6
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-30.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //7
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(30.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //8
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(60.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //9
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(90.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //10
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(120.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //11
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(150.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        
+        //Fondo delante
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //2
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-150.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //3
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-120.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //4 eliminada
+        //5
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-60.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //6
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-30.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //7
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(30.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //8
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(60.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //9
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(90.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //10
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(120.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //11
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(150.0f, 0.0f, 39.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        
+        //segunda pista delante
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-60.0f, 0.0f, 35.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //2
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-30.0f, 0.0f, 19.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //3
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, 2.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //4
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(30.0f, 0.0f, -13.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //5
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(60.0f, 0.0f, -30.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+
+        
+        //segunda pista atras
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-113.0f, 0.0f, 35.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //2
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-30.0f, 0.0f, -10.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //3
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, -26.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //4
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-60.0f, 0.0f, 6.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //5
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(30.0f, 0.0f, -41.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+        //6
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(60.0f, 0.0f, -58.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+
+//**************************serie de luces***************************
+        if((glfwGetTime()-t0Luces)>=0.4f){
+            t0Luces=glfwGetTime();
+            for (int i=0; i<=31; i++) {
+                pointLights[i].SetColor(glm::vec3(1.0f,1.0f,1.0f));
+            }
+            //switch
+            switch (contadorLuces) {
+                case 1:
+                    pointLights[0].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[1].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 2:
+                    pointLights[2].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[3].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[4].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 3:
+                    pointLights[5].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 4:
+                    pointLights[6].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[7].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[8].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[9].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 5:
+                    pointLights[10].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[11].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[12].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[13].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 6:
+                    pointLights[14].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[15].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[16].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[17].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 7:
+                    pointLights[18].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[19].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[20].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[21].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 8:
+                    pointLights[22].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[23].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[24].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[25].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 9:
+                    pointLights[26].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[27].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 10:
+                    pointLights[28].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[29].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+                    
+                case 11:
+                    pointLights[30].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                    pointLights[31].SetColor(glm::vec3(0.0f,0.0f,0.0f));
+                break;
+
+                    
+                default:
+                    break;
+            }
+            if(contadorLuces>=1){
+                contadorLuces=contadorLuces+1;
+            }
+            if(contadorLuces==12){
+                contadorLuces=1;
+            }
+        }
+        
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-150.0f, 10.0f, 115.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Poste.RenderModel();
+        
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-200.0f, 10.0f, 115.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Poste.RenderModel();
+        
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(-180.0f, 35.0f, 170.0f));
+        model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
+        model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Linterna.RenderModel();
+
         
         model = glm::mat4(1.0);
         model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
