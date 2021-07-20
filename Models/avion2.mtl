@@ -1,12 +1,57 @@
-# Blender MTL File: 'None'
-# Material Count: 1
+# Blender MTL File: 'avion2.blend'
+# Material Count: 5
 
-newmtl Default_OBJ
+newmtl Aluminio
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaAluminio.tga
+
+newmtl Azul
+Ns 675.235511
+Ka 0.385000 0.385000 0.385000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaAzulAvion.tga
+
+newmtl Llanta
+Ns 0.000000
+Ka 0.550000 0.550000 0.550000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaFibraC.tga
+
+newmtl Mov
+Ns 675.235511
+Ka 0.385000 0.385000 0.385000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaRojo.tga
+
+newmtl Vidrio
+Ns 712.890001
+Ka 0.426000 0.426000 0.426000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaVidrioAvion.tga
