@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaAzulAvión.tga
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaAzulAvion.tga
 
 newmtl Llanta
 Ns 0.000000
@@ -54,4 +54,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaVidrioAvión.tga
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Avión\\TexturaVidrioAvion.tga
