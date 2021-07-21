@@ -1,0 +1,101 @@
+# Blender MTL File: 'None'
+# Material Count: 9
+
+newmtl Armazón
+Ns 32.749995
+Ka 1.000000 1.000000 1.000000
+Kd 0.066700 0.062700 0.070600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Camaro\\TexturaPlastico.tga
+
+newmtl Labios
+Ns 1.000002
+Ka 0.800000 0.800000 0.800000
+Kd 0.415700 0.239200 0.215700
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Humano\\TexturaPiel.tga
+
+newmtl LenteRojo
+Ns 1.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.035300 0.011800
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.100000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Camaro\\TexturaRojo.tga
+
+newmtl Orejas
+Ns 0.000000
+Ka 0.747059 0.747059 0.747059
+Kd 0.600000 0.380400 0.274500
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Humano\\TexturaPiel.tga
+
+newmtl Pantalón
+Ns 1.000002
+Ka 1.000000 1.000000 1.000000
+Kd 0.564700 0.584300 0.262700
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Pajaro\\TexturaPlumaje.tga
+
+newmtl Pie
+Ns 1.000002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Camaro\\TexturaVidrio.tga
+
+newmtl Piel
+Ns 1.000002
+Ka 0.300000 0.300000 0.300000
+Kd 0.600000 0.380400 0.274500
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Humano\\TexturaPiel.tga
+
+newmtl Playera
+Ns 1.000002
+Ka 0.500000 0.500000 0.500000
+Kd 0.000000 0.470600 0.019600
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Camaro\\TexturaVerdeMetalico.tga
+
+newmtl Tenis
+Ns 1.000002
+Ka 1.000000 1.000000 1.000000
+Kd 0.290200 0.313700 0.282400
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Camaro\\TexturaDorado.tga
