@@ -55,6 +55,12 @@ Model Avion2;
 Model Pajaro;
 Model Poste;
 Model Linterna;
+Model Lambo;
+Model Tronco;
+Model BrazoIzquierdo;
+Model BrazoDerecho;
+Model PiernaIzquierda;
+Model PiernaDerecha;
 
 Model Piso;
 
@@ -126,8 +132,39 @@ GLfloat posXCamaro = 0.0f;
 GLfloat posYCamaro = 0.0f;
 GLfloat terminoCamaro=0.0;
 GLfloat skyboxTime = 0.0f;
+
+//****************Lambo***************************
+GLfloat aux1Lambo=mainWindow.getmuevex();
+GLboolean camino1Lambo = true;
+GLboolean adelanteLambo = true;
+GLboolean despuesVueltaLambo = false;
+GLfloat activoLambo = 0.0f;
+GLfloat topeRotacionLambo = 180.0f;
+GLboolean terminaLambo = false;
+
+GLfloat xaLambo = 0.0f;
+GLfloat yaLambo = 0.0f;
+GLfloat xbLambo = 0.0f;
+GLfloat ybLambo = 0.0f;
+
+GLfloat xBezierLambo = 0.0f;
+GLfloat zBezierLambo = 0.0f;
+GLfloat cuentaLambo = 0.0f;
+
+GLfloat posXLambo = 0.0f;
+GLfloat posYLambo = 0.0f;
+GLfloat terminoLambo =0.0;
+
 //********************luces*************************
 int contadorLuces = 1;
+GLfloat offsetPoste = 0.0f;
+GLfloat posPoste = 0.0f;
+
+//*********************HUMANO***********************
+GLfloat rotar1 = 0.0;
+GLfloat rotar2 = 0.0;
+GLboolean ida1= true;
+GLboolean ida2= false;
 
 class wcPt3D{
 public:
@@ -347,13 +384,11 @@ int main()
     meshList[0]->Bind();
 	CreateShaders();
 
-	camera = Camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f), -60.0f, 0.0f, 0.5f, 0.5f);
-
-	pisoTexture = Texture("Textures/tierra.tga");
-	pisoTexture.LoadTextureA();
-	Tagave = Texture("Textures/Agave.tga");
-	Tagave.LoadTextureA();
-
+	camera = Camera(glm::vec3(-175.0f, 4.9f, 180.0f), glm::vec3(0.0f, 1.0f, 0.0f), -60.0f, 0.0f, 0.5f, 0.5f);
+    
+    pisoTexture = Texture("Textures/tColina.png");
+    pisoTexture.LoadTextureA();
+    
     Camaro = Model();
     Camaro.LoadModel("Models/camaro.obj");
     Avion= Model();
@@ -363,14 +398,27 @@ int main()
     Pajaro=Model();
     Pajaro.LoadModel("Models/pajaro.obj");
     Hangar = Model();
-    Hangar.LoadModel("Models/Hangar.fbx");
+    Hangar.LoadModel("Models/Hangar.obj");
     Poste = Model();
     Poste.LoadModel("Models/poste_luz.obj");
     Linterna = Model();
     Linterna.LoadModel("Models/linterna.obj");
+    Lambo = Model();
+    Lambo.LoadModel("Models/Lambo.obj");
+    
+    Tronco = Model();
+    Tronco.LoadModel("Models/tronco.obj");
+    BrazoIzquierdo = Model();
+    BrazoIzquierdo.LoadModel("Models/brazoizquierdo.obj");
+    BrazoDerecho = Model();
+    BrazoDerecho.LoadModel("Models/brazoderecho.obj");
+    PiernaIzquierda = Model();
+    PiernaIzquierda.LoadModel("Models/pieizquierdo.obj");
+    PiernaDerecha = Model();
+    PiernaDerecha.LoadModel("Models/piederecho.obj");
     
     Piso = Model();
-    Piso.LoadModel("Models/floor.obj");
+    Piso.LoadModel("Models/mLandscape.obj");
 
 	std::vector<std::string> skyboxFaces1;
 	skyboxFaces1.push_back("Textures/Skybox/manana/1_rt.jpg");
@@ -408,8 +456,15 @@ int main()
     glm::vec3 avionInicio2 = glm::vec3(-80.0f, 5.0f, 25.0f);
     glm::vec3 desplazamientoAvion2 = avionInicio2;
     
-    glm::vec3 camaroInicio= glm::vec3(-180.0f, 0.0f, 100.0f);
+    glm::vec3 camaroInicio= glm::vec3(-180.0f, 1.0f, 100.0f);
     glm::vec3 desplazamientoCamaro = camaroInicio;
+    
+    glm::vec3 lamboInicio= glm::vec3(-180.0f, 2.0f, 130.0f);
+    glm::vec3 desplazamientoLambo = lamboInicio;
+    
+    glm::vec3 humanoInicio= glm::vec3(-35.0f, 0.5f, 55.0f);
+    glm::vec3 desplazamientoHumano = humanoInicio;
+    
     
     glm::vec3 pajaro1 = glm::vec3(100.0f, 30.0f, -50.0f);
     glm::vec3 pajaro2 = glm::vec3(90.0f, 30.0f, -40.0f);
@@ -671,7 +726,7 @@ int main()
 
 		//Recibir eventos del usuario
 		glfwPollEvents();
-		camera.keyControl(mainWindow.getsKeys(), deltaTime);
+		camera.keyControl(mainWindow.getsKeys(), deltaTime,mainWindow.getTerceraPersona());
 		camera.mouseControl(mainWindow.getXChange(), mainWindow.getYChange());
 
 		// Clear the window
@@ -719,34 +774,38 @@ int main()
 		glm::vec3 lowerLight = camera.getCameraPosition();
 		lowerLight.y -= 0.3f;
 		spotLights[0].SetFlash(lowerLight, camera.getCameraDirection());
+        
+        offsetPoste += 0.1;
+        posPoste=sin(100* offset * toRadians) / 2;
+        
+        spotLights[1].SetFlash(glm::vec3(-200.0f, 24.0f, 105.0f),glm::vec3(posPoste,-1.0f,0.0f));
+        spotLights[2].SetFlash(glm::vec3(-150.0f, 24.0f, 105.0f),glm::vec3(posPoste,-1.0f, 0.0f));
 
 		//informaciÛn al shader de fuentes de iluminaciÛn
 		shaderList[0].SetDirectionalLight(&mainLight);
 		shaderList[0].SetPointLights(pointLights, pointLightCount);
 		shaderList[0].SetSpotLights(spotLights, spotLightCount);
-
-		glm::mat4 model(1.0);
-        glm::mat4 modelaux(1.0);
-        glm::mat4 modelCamaro(1.0);
-
-		model = glm::mat4(1.0);
+        
+        glm::mat4 model(1.0);
+        glm::mat4 modelHumano(1.0);
+        
+        model = glm::mat4(1.0);
         model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
         model = glm::scale(model, glm::vec3(30.0f, 1.0f, 30.0f));
         glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
         pisoTexture.UseTexture();
+
 		//agregar material al plano de piso
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		meshList[2]->RenderMesh();
-
+        
         
 		//agregar su coche y ponerle material
         
 //*************************************DESPLAZAMIENTO Y TOTACION DEL CAMARO***********************************
-        
         model = glm::mat4(1.0);
         model = glm::translate(model, glm::vec3(desplazamientoCamaro));
         model = glm::scale(model, glm::vec3(0.05f, 0.05f, 0.05f));
-        modelCamaro = model;
         
         if(despuesVuelta == false and terminaCamaro==false){
             if(activoCamaro==0.0f){
@@ -758,8 +817,10 @@ int main()
             if(desplazamientoCamaro.x<100){
                 model = glm::rotate(model, topeRotacionCamaro * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
             }
-            posYCamaro=posYCamaro+1.2;
-            desplazamientoCamaro = glm::vec3(camaroInicio.x + xBezierCamaro + posYCamaro, camaroInicio.y,camaroInicio.z + zBezierCamaro + posXCamaro);
+            if(despuesVueltaLambo == true){
+                posYCamaro=posYCamaro+1.2;
+                desplazamientoCamaro = glm::vec3(camaroInicio.x + xBezierCamaro + posYCamaro, camaroInicio.y,camaroInicio.z + zBezierCamaro + posXCamaro);
+            }
         }
         if(desplazamientoCamaro.z <= 80.0f and cuentaCamaro<1 and terminaCamaro==false){
             //Funciones de bezier para trazar las curvas
@@ -775,7 +836,7 @@ int main()
             zBezierCamaro = getPt( yaCamaro , ybCamaro , cuentaCamaro );
             
             model = glm::rotate(model, topeRotacionCamaro * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
-            topeRotacionCamaro-=1.2;
+            topeRotacionCamaro-=0.8;
             
             if(topeRotacionCamaro<=90){
                 topeRotacionCamaro=90;
@@ -803,7 +864,68 @@ int main()
         glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
         Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		Camaro.RenderModel();
-//*************************************DESPLAZAMIENTO Y TOTACION DEL CAMARO***********************************
+        
+//*************************************DESPLAZAMIENTO Y TOTACION DEL LAMBO***********************************
+        
+        model = glm::mat4(1.0);
+        model = glm::translate(model, glm::vec3(desplazamientoLambo));
+        model = glm::scale(model, glm::vec3(0.075f, 0.075f, 0.075f));
+        
+        if(despuesVueltaLambo == false and terminaLambo==false){
+            if(activoLambo==0.0f){
+                 model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+                posXLambo=posXLambo-0.2;
+            }
+            desplazamientoLambo = glm::vec3(lamboInicio.x + xBezierLambo, lamboInicio.y,lamboInicio.z + zBezierLambo + posXLambo );
+        }else if (activoLambo==0.0f and terminaLambo==false){
+            if(desplazamientoLambo.x<100){
+                model = glm::rotate(model, topeRotacionLambo * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+            }
+            posYLambo=posYLambo+2.0;
+            desplazamientoLambo = glm::vec3(lamboInicio.x + xBezierLambo + posYLambo, lamboInicio.y,lamboInicio.z + zBezierLambo + posXLambo);
+        }
+        if(desplazamientoLambo.z <= 95.0f and cuentaLambo<1 and terminaLambo==false){
+            //Funciones de bezier para trazar las curvas
+            activoLambo=1.0f;
+            cuentaLambo=cuentaLambo+0.01;
+            xaLambo = getPt( 0.0f , 7.0f , cuentaLambo );
+            yaLambo = getPt( 0.0f , -30.0f , cuentaLambo);
+            xbLambo = getPt( 7.0f , 20.0f , cuentaLambo );
+            ybLambo = getPt( -30.0f , -35.0f ,cuentaLambo );
+
+            // The Black Dot
+            xBezierLambo = getPt( xaLambo , xbLambo , cuentaLambo );
+            zBezierLambo = getPt( yaLambo , ybLambo , cuentaLambo );
+            
+            model = glm::rotate(model, topeRotacionLambo * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+            topeRotacionLambo-=0.8;
+            
+            if(topeRotacionLambo<=90){
+                topeRotacionLambo=90;
+            }
+        }
+        if(cuentaLambo>0.99 and activoLambo==1.0){
+            activoLambo =0.0f;
+            adelanteLambo = false;
+            despuesVueltaLambo=true;
+            topeRotacionLambo=90.0;
+        }
+        
+        if (desplazamientoLambo.x >=100){
+            if(terminaLambo==false){
+                topeRotacionLambo=topeRotacionLambo-1.0;
+                model = glm::rotate(model, topeRotacionLambo * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+            }
+            if(topeRotacionLambo==45.0){
+                terminaLambo=true;
+                model = glm::rotate(model, 45.0f * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+            }
+        }
+        
+        
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
+        Lambo.RenderModel();
         
 //*************************************DESPLAZAMIENTO Y TOTACION DEL Avion***********************************
 		
@@ -988,11 +1110,138 @@ int main()
            
 //******************************************Hangar****************************************
         model = glm::mat4(1.0);
-        model = glm::scale(model, glm::vec3(20.0f, 20.0f, 3.0f));
-        model = glm::translate(model, glm::vec3(-9.0f, 0.0f, 70.0f));
+        model = glm::scale(model, glm::vec3(5.0f, 5.0f, 3.0f));
+        model = glm::translate(model, glm::vec3(-35.0f, 0.0f, 55.0f));
         model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
         glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
         Hangar.RenderModel();
+        
+//******************************************Humano******************************************
+        model = glm::mat4(1.0);
+        model = glm::scale(model, glm::vec3(5.0f, 5.0f, 3.0f));
+        desplazamientoHumano=glm::vec3(humanoInicio.x,humanoInicio.y,humanoInicio.z+mainWindow.getmuevex()/5);
+        model = glm::translate(model,desplazamientoHumano);
+        model = glm::rotate(model, 180 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+        modelHumano=model;
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Tronco.RenderModel();
+
+        if(mainWindow.getAnimated()==false){
+            rotar1 = 0.0;
+            rotar2 = 0.0;
+            ida1= true;
+            ida2= false;
+        }
+        
+//************Brazo derecho
+        model = modelHumano;
+        model = glm::translate(model, glm::vec3(-0.2f, 1.0f,-0.8f));
+        
+        if(mainWindow.getAnimated()==true){
+            if(rotar1<=30 and ida1==true){
+                rotar1=rotar1+2.0;
+                if(rotar1==30){
+                    ida1=false;
+                }
+            }else{
+                if(rotar1>=-30){
+                    rotar1=rotar1-2.0;
+                    if(rotar1==-30){
+                        ida1 =true;
+                    }
+                }
+            }
+            model = glm::rotate(model, rotar1 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }else{
+            model = glm::rotate(model, 0 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }
+        
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
+        BrazoDerecho.RenderModel();
+        
+//************Brazo izquierdo
+        model = modelHumano;
+        model = glm::translate(model, glm::vec3(0.2f, 1.0f,-0.8f));
+        
+        if(mainWindow.getAnimated()==true){
+            if(rotar2<=30 and ida2==true){
+                rotar2=rotar2+2.0;
+                if(rotar2==30){
+                    ida2=false;
+                }
+            }else{
+                if(rotar2>=-30){
+                    rotar2=rotar2-2.0;
+                    if(rotar2==-30){
+                        ida2 =true;
+                    }
+                }
+            }
+            model = glm::rotate(model, rotar2 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }else{
+            model = glm::rotate(model, 0 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }
+        
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
+        BrazoIzquierdo.RenderModel();
+        
+//************Pierna izquierdo
+        
+        model = modelHumano;
+        model = glm::translate(model, glm::vec3(0.0f, 0.5f,-0.8f));
+        
+        if(mainWindow.getAnimated()==true){
+            if(rotar1<=30 and ida1==true){
+                rotar1=rotar1+2.0;
+                if(rotar1==45){
+                    ida1=false;
+                }
+            }else{
+                if(rotar1>=-30){
+                    rotar1=rotar1-2.0;
+                    if(rotar1==-30){
+                        ida1 =true;
+                    }
+                }
+            }
+            model = glm::rotate(model, rotar1 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }else{
+            model = glm::rotate(model, 0 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }
+        
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
+        PiernaIzquierda.RenderModel();
+        
+        
+//************Pierna derecha
+        model = modelHumano;
+        model = glm::translate(model, glm::vec3(0.0f, 0.5f,-0.8f));
+        
+        if(mainWindow.getAnimated()==true){
+            if(rotar2<=30 and ida2==true){
+                rotar2=rotar2+2.0;
+                if(rotar2==30){
+                    ida2=false;
+                }
+            }else{
+                if(rotar2>=-30){
+                    rotar2=rotar2-2.0;
+                    if(rotar2==-30){
+                        ida2 =true;
+                    }
+                }
+            }
+            model = glm::rotate(model, rotar2 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }else{
+            model = glm::rotate(model, 0 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+        }
+        
+        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+        Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
+        PiernaDerecha.RenderModel();
         
 //*****************************************Luces de pista**********************************
         //Fondo atras
@@ -1323,17 +1572,6 @@ int main()
         //COMPLEJA = UNIMACION BASADA EN FUNCIONES, ECUACIONES QUE EXISTEN COMO
         //CAIDA LIBRE TIRO PRABOLICO, FUNCIONES DE CURVA, MOVIMIENTOS FISICOS
         
-        model = glm::mat4(1.0);
-        model = glm::translate(model, glm::vec3(0.0f,0.0f,-10.0f));
-        model = glm::scale(model, glm::vec3(5.0f,5.0f,5.0f));
-        glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-        //blending transparencia o traslucidez
-        glEnable(GL_BLEND);
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-        Tagave.UseTexture();
-        Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
-        meshList[3]->RenderMesh();
-        glDisable(GL_BLEND);
 
 		glUseProgram(0);
 
