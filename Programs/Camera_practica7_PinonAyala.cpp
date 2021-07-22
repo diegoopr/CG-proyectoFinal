@@ -1,4 +1,8 @@
+#include<stdio.h>
+#include<GL/glew.h>
+#include<GLFW/glfw3.h>
 #include "Camera.h"
+#include "Window.h"
 
 Camera::Camera() {}
 
@@ -16,18 +20,45 @@ Camera::Camera(glm::vec3 startPosition, glm::vec3 startUp, GLfloat startYaw, GLf
     update();
 }
 
-void Camera::keyControl(bool* keys, GLfloat deltaTime)
+void Camera::keyControl(bool* keys, GLfloat deltaTime, GLboolean terceraPersona)
 {
     GLfloat velocity = moveSpeed * deltaTime;
 
     if (keys[GLFW_KEY_W])
     {
-        position += front * velocity;
+        if(terceraPersona == true){
+            if(position.y <=10 and position.y >=-5){
+                position += front * velocity;
+            }else{
+                if(position.y >=10){
+                    position.y = 9.9f;
+                }
+                if(position.y <=-5){
+                    position.y = -4.9f;
+                }
+            }
+        }else{
+            position += front * velocity;
+        }
     }
 
     if (keys[GLFW_KEY_S])
     {
-        position -= front * velocity;
+        
+        if(terceraPersona == true){
+            if(position.y <=10 and position.y >=-5){
+                position -= front * velocity;
+            }else{
+                if(position.y >=10){
+                    position.y = 9.9f;
+                }
+                if(position.y <=-5){
+                    position.y = -4.9f;
+                }
+            }
+        }else{
+            position -= front * velocity;
+        }
     }
 
     if (keys[GLFW_KEY_A])
