@@ -16,7 +16,11 @@ public:
     GLfloat getmuevex() { return muevex; }
     GLfloat getGira() { return Gira; }
     GLfloat getDespega() { return despega; }
+    GLfloat getArranca() { return arranca; }
     GLboolean getLucesDelante() { return LucesDelante; }
+    GLboolean getTerceraPersona() { return terceraPersona; }
+    GLboolean getAnimated() { return animated; }
+
     bool getShouldClose() {
         return  glfwWindowShouldClose(mainWindow);}
     bool* getsKeys() { return keys; }
@@ -37,6 +41,9 @@ private:
     GLfloat Gira;
     GLfloat despega;
     GLboolean LucesDelante;
+    GLboolean arranca;
+    GLboolean terceraPersona;
+    GLboolean animated;
     
     bool mouseFirstMoved;
     static void ManejaTeclado(GLFWwindow* window, int key, int code, int action, int mode);
