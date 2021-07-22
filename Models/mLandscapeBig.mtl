@@ -1,5 +1,5 @@
 # Blender MTL File: 'mlandscape.blend'
-# Material Count: 6
+# Material Count: 5
 
 newmtl Carretera
 Ns 225.000000
@@ -12,6 +12,17 @@ d 1.000000
 illum 2
 map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Textures\\tCarretera.png
 
+newmtl Colina
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Textures\\tColina.png
+
 newmtl Helipuerto
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
@@ -23,7 +34,7 @@ d 1.000000
 illum 2
 map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Textures\\tHelipuerto.png
 
-newmtl Material.001
+newmtl Mountain
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -32,29 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Space Elements Pack\\Mountains\\textures\\Desert\\Desert_Mountain_Diffuse.png
-
-newmtl Material.004
-Ns 225.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Space Elements Pack\\Mountains\\textures\\Canyons\\Large_Canyons_Diffuse.png
-
-newmtl None
-Ns 225.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Space Elements Pack\\Mountains\\textures\\Desert\\Desert_Mountain_Diffuse.png
+map_Kd C:\\Users\\tabon\\Documents\\Escuela\\Computer Graphics\\Proyecto\\Textures\\tMountain.png
 
 newmtl Pista
 Ns 431.360932
