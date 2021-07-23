@@ -1,10 +1,10 @@
 # Blender MTL File: 'None'
 # Material Count: 2
 
-newmtl Piel
-Ns 1.000002
+newmtl Piel.002
+Ns 0.980100
 Ka 0.300000 0.300000 0.300000
-Kd 0.600000 0.380400 0.274500
+Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -12,10 +12,10 @@ d 1.000000
 illum 1
 map_Kd F:\\Pin\\Octavo Semestre\\Compu. Gráfica\\Lab\\Proyecto final\\Textures Humano\\TexturaPiel.tga
 
-newmtl Playera
-Ns 1.000002
+newmtl Playera.002
+Ns 0.980100
 Ka 0.500000 0.500000 0.500000
-Kd 0.000000 0.470600 0.019600
+Kd 0.800000 0.800000 0.800000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
